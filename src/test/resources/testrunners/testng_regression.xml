@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Opencart App Test Regression Suite" verbose="4">
+	
+
+	
+	
+	<test name="Testng11 Test">
+	
+	    <classes>
+	       <class name="Testcases.Testng11" />
+	    
+	    </classes>
+	    
+	 </test>
+	
+	
+	
+	<test name="First Test">
+	
+	<classes>
+	       <class name="Testcases.First" />
+	    
+	    </classes>
+	
+	
+	</test>
+	
+	
+	
+
+
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Opencart App Test Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <test thread-count="5" name="First Test(failed)" verbose="4">
+    <parameter name="url" value="https://practicesoftwaretesting.com"/>
+    <classes>
+      <class name="Testcases.First">
+        <methods>
+          <include name="setUp"/>
+          <include name="isElementDisplayedTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Testcases.First -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
